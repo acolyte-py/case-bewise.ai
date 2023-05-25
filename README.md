@@ -54,8 +54,12 @@ sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}
 ![2](https://github.com/acolyte-py/case-bewise.ai/assets/75732226/73682cd6-8591-429b-ada1-4c8f9b94fe96)
 
 На этом этапе нужно сохранить информацию в .env файл. Получится примерно так:
-
-![10(1)](https://github.com/acolyte-py/case-bewise.ai/assets/75732226/65e83c50-cd8d-4135-bf62-567dd7800732)
+```
+USER="user"
+PASSWD="password"
+NAME="bewise_fastapi"
+IP="172.25.0.2"
+```
 
 # Launch project 🐾
 Данный пункты выполнять исключительно если - пункт "Starting DB using docker-compose" выполнился без ошибок.
