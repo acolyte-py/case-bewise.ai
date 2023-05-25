@@ -175,11 +175,10 @@ SELECT * FROM audio;
 
 
 ## Built With 🔧
-* [FastAPI](https://fastapi.tiangolo.com/) - Для отчетов о тестировании.
-* [PostgreSQL](https://www.postgresql.org/docs/) - Для тестирования приложения.
-* [Docker](https://docs.docker.com/) - Для автоматического запуска тестов.
-* [docker-compose](https://docs.docker.com/compose/) - Для автоматического запуска тестов.
-* [SQLAlchemy](https://docs.sqlalchemy.org/en/20/) - Для автоматического запуска тестов.
+* [FastAPI](https://fastapi.tiangolo.com/) - Для разработки приложения;
+* [PostgreSQL](https://www.postgresql.org/docs/) - Для работы с базой данных;
+* [docker-compose](https://docs.docker.com/compose/) - Для запуска контейнера с нужным образом;
+* [SQLAlchemy](https://docs.sqlalchemy.org/en/20/) - Для работы с базы данными в python.
 
 ## Authors 🗿
 
